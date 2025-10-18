@@ -23,7 +23,7 @@ const About = () => {
         <p className='text-white text-lg text-justify'>Centralize todo o acervo da sua obra — contratos, laudos, ART/RRT, ASO, certificados, fotos e evidências — em um repositório seguro e organizado por incorporadora, obra e empreiteira. Defina permissões finas por perfil, controle versões e mantenha uma trilha completa de auditoria para cada documento.
 
 Receba alertas de vencimento, aprove documentos com fluxo simples e gere dossiês de auditoria em um clique, prontos para compartilhar com links seguros. A busca por etiquetas, período e tipo de arquivo coloca qualquer evidência na sua mão em segundos. Segurança, LGPD, backups e histórico garantem tranquilidade — do canteiro ao compliance.</p>
-        <motion.button variants={slideUpVariants} className='bg-yellow-500 hover:bg-white hover:text-black px-10 py-3 rounded-lg text-black font-bold'>READ MORE</motion.button>
+        <motion.button variants={slideUpVariants} className='bg-yellow-500 hover:bg-white hover:text-black px-10 py-3 rounded-lg text-black font-bold'>SAIBA MAIS...</motion.button>
       </motion.div>
     </div>
   )
