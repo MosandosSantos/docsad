@@ -26,7 +26,15 @@ const Testimonials = () => {
                   <p className='text-white text-lg text-center hover:text-black'>{item.about}</p>
                 </div>
                 <div className='flex flex-col justify-center items-center gap-[5px]'>
-                  <img src={item.image} alt="client image" className='mt-[-50px]' />
+                  <img
+                    src={item.image}
+                    alt={`${item.name} photo`}
+                    width={80}
+                    height={80}
+                    className='mt-[-50px] w-20 h-20 rounded-full object-cover border-2 border-white shadow'
+                    loading="lazy"
+                    decoding="async"
+                  />
                   <h1 className='text-white text-[27px] font-semibold uppercase'>{item.name}</h1>
                   <h1 className='text-yellow-500 text-[22px]'>{item.post}</h1>
                 </div>
