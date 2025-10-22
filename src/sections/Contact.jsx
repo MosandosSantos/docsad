@@ -14,7 +14,7 @@ const Contact = () => {
           <motion.h1 variants={slideUpVariants} className=' text-yellow-500 text-2xl'>CONTATE NOS</motion.h1>
           <motion.h1 variants={slideUpVariants} className='text-black uppercase text-[40px] font-bold'>ENTRE EM CONTATO CONOSCO PARA QUALQUER DÚVIDA</motion.h1>
           <motion.div variants={slideUpVariants} className='w-[120px] h-[6px] bg-yellow-500'></motion.div>
-          <motion.p variants={slideUpVariants} className='text-3xl italic text-gray-700 mt-[60px]'>Mais de 20 anos de experiência!</motion.p>
+          <motion.p variants={slideUpVariants} className='text-3xl italic text-gray-700 mt-[60px]'>Mais de 40 anos de experiência!</motion.p>
         </motion.div>
         <div className='lg:w-[40%] w-full flex flex-col justify-center items-start gap-6'>
           <motion.form
