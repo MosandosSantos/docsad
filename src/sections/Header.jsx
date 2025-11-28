@@ -44,7 +44,7 @@ const Header = () => {
         ))}
       </ul>
 
-      <button className=' bg-yellow-500 hover:bg-black hover:text-white text-black px-10 py-3 rounded-full font-semibold transform hover:scale-105 transition-transform duration-300 cursor-pointer md:flex hidden'>Login</button>
+      <button onClick={() => window.location.href = 'http://127.0.0.1:8000'} className=' bg-yellow-500 hover:bg-black hover:text-white text-black px-10 py-3 rounded-full font-semibold transform hover:scale-105 transition-transform duration-300 cursor-pointer md:flex hidden'>Login</button>
 
       {/* mobile menu starts */}
       <div className='flex justify-between items-center lg:hidden mt-3' onClick={toggleMenu}>
