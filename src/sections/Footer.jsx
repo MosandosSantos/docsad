@@ -7,17 +7,12 @@ const Footer = () => {
   return (
     <>
       {/* FOOTER */}
-      <footer className="bg-black/95 text-gray-300 py-6 px-4 border-t border-gray-800">
+      <footer className="bg-black/95 text-gray-300 py-6 px-4 border-t border-gray-800 relative">
         <div className="max-w-6xl mx-auto flex flex-col md:flex-row items-center justify-between gap-4">
 
-          {/* Direitos */}
-          <p className="flex items-center gap-2 text-sm md:text-base">
-            © {new Date().getFullYear()} RSBARRA — Todos os direitos reservados.
-          </p>
-
-          {/* Desenvolvido por */}
-          <p className="text-sm md:text-base text-gray-400">
-            Desenvolvido por{" "}
+          {/* Desenvolvido por - esquerda */}
+          <p className="text-sm md:text-base text-gray-400 flex items-center gap-1">
+            Desenvolvido por  
             <a
               href="https://wa.me/5521999417097"
               target="_blank"
@@ -28,13 +23,21 @@ const Footer = () => {
             </a>
           </p>
 
+          {/* Centro - RSBARRA */}
+          <p className="text-sm md:text-base text-center flex-1">
+            © {new Date().getFullYear()} <span className="text-white font-semibold">RSBARRA</span> — Todos os direitos reservados.
+          </p>
+
+          {/* Espaço vazio (melhor alinhamento) */}
+          <div className="w-[140px] md:w-[180px]"></div>
+
         </div>
       </footer>
 
       {/* BOTÃO SCROLL TOP */}
       <div
         id="icon-box"
-        className="bg-yellow-500 text-black p-3 rounded-full shadow-lg hover:bg-yellow-400 transition-all cursor-pointer fixed lg:bottom-6 right-6 bottom-6"
+        className="bg-yellow-500 text-black p-3 rounded-full shadow-lg hover:bg-yellow-400 transition-all cursor-pointer fixed lg:bottom-6 right-6 bottom-6 z-50"
       >
         <Link to="hero" spy={true} offset={-100} smooth={true}>
           <FaArrowUp className="w-[30px] h-[30px]" />
