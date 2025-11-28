@@ -5,7 +5,7 @@ import { slideUpVariants, zoomInVariants } from './animation';
 
 const Working = () => {
   return (
-    <div className='w-full bg-white'>
+    <div id='working' className='w-full bg-white'>
       <motion.div
         initial="hidden"
         whileInView="visible"

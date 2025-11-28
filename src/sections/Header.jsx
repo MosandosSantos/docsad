@@ -18,20 +18,20 @@ const Header = () => {
   const navItems = [
 
     {
-      link: 'Home', path: 'home'
+      link: 'Home', path: 'hero'
     },
     {
-      link: 'Sobre', path: 'about'
+      link: 'SADDOC', path: 'about'
     },
     {
-      link: 'Serviços', path: 'services'
+      link: 'Serviços', path: 'working'
     },
-    {
-      link: 'Equipe', path: 'projects'
-    },
+
     {
       link: 'Contato', path: 'contact'
     },
+
+
   ]
 
   return (
