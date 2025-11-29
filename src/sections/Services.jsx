@@ -10,9 +10,9 @@ const Services = () => {
         whileInView="visible"
         variants={slideUpVariants}
         className='lg:w-[80%] w-[90%] m-auto py-[60px] flex flex-col justify-between items-center gap-[20px]'>
-        <motion.h1 variants={slideUpVariants} className=' text-yellow-500 text-2xl'>RSBarra</motion.h1>
+        <motion.h1 variants={slideUpVariants} className=' text-[#1E88E5] text-2xl'>RSBarra</motion.h1>
         <motion.h1 variants={slideUpVariants} className='text-black uppercase text-[40px] font-bold text-center'>NOSSOS SERVIÇOS</motion.h1>
-        <motion.div variants={slideUpVariants} className='w-[120px] h-[6px] bg-yellow-500'></motion.div>
+        <motion.div variants={slideUpVariants} className='w-[120px] h-[6px] bg-[#1E88E5]'></motion.div>
         <motion.div
           initial="hidden"
           whileInView="visible"
@@ -21,7 +21,7 @@ const Services = () => {
           {
             allservices.map((item, index) => (
               <motion.div variants={zoomInVariants} key={index} className='flex justify-center items-start gap-5 p-8'>
-                <div><img src={item.icon} alt="services icon" className='w-[140px] border-2 border-yellow-500 hover:bg-yellow-500  rounded-lg p-2' /></div>
+                <div><img src={item.icon} alt="services icon" className='w-[140px] border-2 border-[#1E88E5] hover:bg-[#1E88E5]  rounded-lg p-2' /></div>
                 <div className='flex flex-col justify-center items-start gap-3'>
                   <h1 className='text-xl font-bold text-black'>{item.title}</h1>
                   <p className='text-[18px]'>{item.about}</p>

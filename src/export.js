@@ -10,9 +10,10 @@ import { MdOutlineDesignServices } from "react-icons/md";
 import { FaRegBuilding } from "react-icons/fa";
 import { FaSitemap } from "react-icons/fa";
 
-import client1 from "../src/assets/client1.png";
-import client2 from "../src/assets/client2.png";
-import client3 from "../src/assets/client3.png";
+// Usando placeholders temporários para imagens de equipe
+const client1 = "https://ui-avatars.com/api/?name=Juacy&background=1E88E5&color=fff&size=200&bold=true";
+const client2 = "https://ui-avatars.com/api/?name=Drew+James&background=1E88E5&color=fff&size=200&bold=true";
+const client3 = "https://ui-avatars.com/api/?name=Sam+Peterson&background=1E88E5&color=fff&size=200&bold=true";
 
 export const allservices = [
   {

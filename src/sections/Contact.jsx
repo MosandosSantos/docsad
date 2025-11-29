@@ -11,9 +11,9 @@ const Contact = () => {
           whileInView="visible"
           variants={slideUpVariants}
           className='lg:w-[60%] w-full flex flex-col justify-center items-start gap-6'>
-          <motion.h1 variants={slideUpVariants} className=' text-yellow-500 text-2xl'>CONTATE NOS</motion.h1>
+          <motion.h1 variants={slideUpVariants} className=' text-[#1E88E5] text-2xl'>CONTATE NOS</motion.h1>
           <motion.h1 variants={slideUpVariants} className='text-black uppercase text-[40px] font-bold'>ENTRE EM CONTATO CONOSCO PARA QUALQUER DÚVIDA</motion.h1>
-          <motion.div variants={slideUpVariants} className='w-[120px] h-[6px] bg-yellow-500'></motion.div>
+          <motion.div variants={slideUpVariants} className='w-[120px] h-[6px] bg-[#1E88E5]'></motion.div>
           <motion.p variants={slideUpVariants} className='text-3xl italic text-gray-700 mt-[60px]'>Mais de 40 anos de experiência!</motion.p>
         </motion.div>
         <div className='lg:w-[40%] w-full flex flex-col justify-center items-start gap-6'>
@@ -28,7 +28,7 @@ const Contact = () => {
             <textarea name="" id="" placeholder='Sua Mensagem' rows="4" className='px-6 py-3 border-[2px] border-black text-black rounded-lg w-full'></textarea>
             <motion.button
               variants={zoomInVariants}
-              type='submit' className='bg-yellow-500 hover:bg-black hover:text-white px-10 py-4 text-black font-bold rounded-lg w-full'>Enviar</motion.button>
+              type='submit' className='bg-[#1E88E5] hover:bg-black hover:text-white px-10 py-4 text-white font-bold rounded-lg w-full'>Enviar</motion.button>
           </motion.form>
         </div>
       </div>

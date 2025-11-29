@@ -17,7 +17,7 @@ const Footer = () => {
               href="https://wa.me/5521999417097"
               target="_blank"
               rel="noopener noreferrer"
-              className="text-yellow-400 hover:text-yellow-300 hover:underline flex items-center gap-1"
+              className="text-[#1E88E5] hover:text-[#42A5F5] hover:underline flex items-center gap-1"
             >
               Mosán dos Santos <FaWhatsapp className="inline-block" />
             </a>
@@ -37,7 +37,7 @@ const Footer = () => {
       {/* BOTÃO SCROLL TOP */}
       <div
         id="icon-box"
-        className="bg-yellow-500 text-black p-3 rounded-full shadow-lg hover:bg-yellow-400 transition-all cursor-pointer fixed lg:bottom-6 right-6 bottom-6 z-50"
+        className="bg-[#1E88E5] text-white p-3 rounded-full shadow-lg hover:bg-[#42A5F5] transition-all cursor-pointer fixed lg:bottom-6 right-6 bottom-6 z-50"
       >
         <Link to="hero" spy={true} offset={-100} smooth={true}>
           <FaArrowUp className="w-[30px] h-[30px]" />

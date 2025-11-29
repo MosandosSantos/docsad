@@ -14,11 +14,11 @@ const Hero = () => {
         className=' lg:w-[60%] w-full flex flex-col justify-center items-start lg:gap-8 gap-4'>
         <motion.h1
           variants={slideUpVariants}
-          className=' text-yellow-400 text-2xl'>CONFORMIDADE INTELIGENTE</motion.h1>
+          className=' text-[#1E88E5] text-2xl'>CONFORMIDADE INTELIGENTE</motion.h1>
         <motion.h1
           variants={slideUpVariants}
           className='text-white uppercase text-[40px] font-bold'>Auditoria Sem Papelada</motion.h1>
-        <div className='w-[120px] h-[6px] bg-yellow-500'></div>
+        <div className='w-[120px] h-[6px] bg-[#1E88E5]'></div>
         <p className='text-white text-[15px]'>Um acervo digital seguro com versionamento, trilha de auditoria e acesso por perfis. Envie, aprove e compartilhe sem planilhas nem e-mails perdidos.</p>
         <motion.div
           initial="hidden"
@@ -27,10 +27,12 @@ const Hero = () => {
           className='flex justify-center items-center gap-5'>
           <motion.button
             variants={zoomInVariants}
-            className='bg-yellow-500 hover:bg-white hover:text-black px-10 py-3 rounded-lg text-black font-bold'>Saiba mais...</motion.button>
+            onClick={() => window.open('https://rsbarra.com.br/', '_blank')}
+            className='bg-[#1E88E5] hover:bg-white hover:text-black px-10 py-3 rounded-lg text-white font-bold cursor-pointer transition-all duration-300'>Saiba mais...</motion.button>
           <motion.button
             variants={zoomInVariants}
-            className='border-white hover:border-yellow-500 hover:text-yellow-500 border-2 px-10 py-3 rounded-lg text-white font-bold'>Junte-se a nós</motion.button>
+            onClick={() => window.open('https://wa.me/5521990894201', '_blank')}
+            className='border-white hover:border-[#1E88E5] hover:text-[#1E88E5] border-2 px-10 py-3 rounded-lg text-white font-bold cursor-pointer transition-all duration-300'>Junte-se a nós</motion.button>
         </motion.div>
       </motion.div>
       <div className='w-[40%] flex flex-col justify-end items-end'>
